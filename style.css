@@ -1,0 +1,40 @@
+body {
+  margin: 20px 10%;
+}
+.social-media {
+  padding: 11px 0px;
+  float: right;
+}
+.rss-email {
+  margin-left: 10px;
+  display: inline-block;
+}
+.border-line {
+  margin: 20px 0;
+  min-height: 20px;
+  background: url(img/hr-img.png);
+}
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.sub-heading {
+  margin-bottom: 20px;
+}
+h2 {
+  color: #ddd;
+  display: inline-block;
+}
+.print {
+  float: right;
+  display: inline-block;
+}
+.main-pic {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+p {
+  text-indent: 5%;
+}
