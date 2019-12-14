@@ -4,33 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="reset.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css">
   <title>Chocolate Pizza</title>
 </head>
 <body>
   <header>
     <img src="img/logo.jpg" alt="Delicious logo image">
-    <div>
+    <div class="social-media">
       <img src="img/fb-icon.png" alt="Facebook button">
       <img src="img/twit-icon.png" alt="Twitter button">
       <img src="img/gp-icon.png" alt="Google+ button">
       <img src="img/insta-icon.png" alt="Instagram button">
       <img src="img/flic-icon.png" alt="Flikr button">
       <img src="img/pint-icon.png" alt="Pintrest button">
+      <div class="rss-email">
+        <img src="img/rss-icon.png" alt="RSS button">
+        <img src="img/mail-icon.png" alt="eMail button">
+      </div>
     </div>
-    <div>
-      <img src="img/rss-icon.png" alt="RSS button">
-      <img src="img/mail-icon.png" alt="eMail button">
-    </div>
-    <div>
-      <img src="img/hr-img.png" alt="Border image">
+    <div class="border-line">
+      <!-- <img src="img/hr-img.png" alt="Border image"> -->
     </div>
   </header>
   <main>
     <h1>Chocolate Pizza</h1>
-    <h2>POSTED ON 15 DEC 2013 / DESSERTS
-      <img src="img/print-icon.png" alt="print icon image">
-    </h2>
-    <img src="img/choco-pizza.png" alt="chocolate pizza image">
+    <div class="sub-heading">
+      <h2>POSTED ON 15 DEC 2013 / DESSERTS</h2>
+      <div class="print">
+        <img src="img/print-icon.png" alt="print icon image">
+        <h2>PRINT</h2>
+      </div>
+    </div>
+    <img class="main-pic" src="img/choco-pizza.png" alt="chocolate pizza image">
+    <article>
     <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add       brown sugar and stir to dissolve. Halve all of the figs and toss in     the saucepan with water and lemon juice. Cook over medium heat            stirring frequently, until you have a chunky-jammy mixture. Add salt    with one or two stirs, set aside and let cool completely.</p>
       <br>
       <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
@@ -38,16 +46,20 @@
       <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for
       at least two hours before serving.</p>
       <br>
-      <div>
-        <ul>
-          <li>1 1/2 cups milk</li>
-          <li>1/2 cup mascarpone</li>
-          <li>1/2 tsp pink salt</li>
-          <li>1 lb Black Mission Figs</li>
-          <li>1/2 cups brown sugar</li>
-          <li>2-4 tbsp water</li>
-        </ul>
-        <ul>
+    </article>
+      <div class="ingredients">
+        <div class="ingredients-lists">
+          <ul>
+            <li>1 1/2 cups milk</li>
+            <li>1/2 cup mascarpone</li>
+            <li>1/2 tsp pink salt</li>
+            <li>1 lb Black Mission Figs</li>
+            <li>1/2 cups brown sugar</li>
+            <li>2-4 tbsp water</li>
+          </ul>
+        </div>
+        <div class="ingredients-lists">
+          <ul>
             <li>1 1/2 cups heavy cream</li>
             <li>1/3 granulated sugar</li>
             <li>2 egg yolks</li>
@@ -55,19 +67,20 @@
             <li>2 tbsp butter</li>
             <li>1 cup honey roasted pecans, roughly chopped</li>
           </ul>
+        </div>
       </div>
-      <div>
+      <div class="border-line">
         <img src="img/hr-img.png" alt="Border image">
       </div>
       <img src="img/van-pic.png" alt="Vanessa Stevenson pic">
-      <div>
+      <div class="author">
         <h3>Vanessa Stevenson</h3>
         <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
       </div>
-      <button>SHARE RECIPE</button>
+      <input type="button" value="SHARE RECIPE">
   </main>
   <footer>
-    <div>
+    <div class="footer-logo">
       <img src="img/logo.png" alt="small logo">
     </div>
     <p>
