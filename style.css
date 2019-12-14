@@ -1,0 +1,114 @@
+body {
+  margin: 20px 10%;
+}
+.social-media {
+  padding: 11px 0px;
+  float: right;
+}
+.rss-email {
+  margin-left: 10px;
+  display: inline-block;
+}
+.border-line {
+  margin: 20px 0;
+  min-height: 20px;
+  background: url(img/hr-img.png);
+}
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.sub-heading {
+  margin-bottom: 20px;
+}
+h2 {
+  color: #ddd;
+  display: inline-block;
+}
+.print {
+  float: right;
+  display: inline-block;
+}
+.main-pic {
+  display: block;
+  width: 100%;
+  margin: 0 auto 20px;
+}
+article {
+  text-indent: 5%;
+}
+.ingredients {
+  padding: 20px 0;
+  background: url(img/list-bg.png);
+}
+.ingredients-lists {
+  margin: 15px 10% 0 10%;
+  font-family: 'Patrick Hand', cursive;
+  display: inline-block;
+  font-size: 28px;
+  width: 25%;
+}
+li {
+  margin: 3px 0;
+}
+h3 {
+  font-size: large;
+  font-weight: bolder;
+  padding: 10px 0;
+}
+.author {
+  display: inline-block;
+  text-indent: 0px;
+  width: 50%;
+  height: 75px;
+  margin-left: 1%;
+}
+input {
+  float: right;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: #ba7057;
+  color: white;
+  padding: 10px 20px;
+  margin: 17px 0px 10px 10px;
+}
+.footer-logo {
+ position: relative;
+ max-width: 1000px;
+ margin: 0 auto;
+ overflow: hidden;
+
+}
+
+.footer-logo:before {
+  position: absolute;
+  content: "";
+  border-bottom: 1px solid #bbb;
+  right:-30px;
+  height: 50px;
+  width: 50%;
+  top:0;
+}
+.footer-logo:after {
+  position: absolute;
+  content: "";
+  border-bottom: 1px solid #bbb;
+  left:-30px;
+  height: 50px;
+  width: 50%;
+  top:0;
+}
+.footer-logo img {
+  display: block;
+  margin: 0 auto;
+  opacity: 0.5;
+}
+footer p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #bbb;
+}
